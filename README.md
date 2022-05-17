@@ -1,5 +1,9 @@
 # Training of parsing files XML && JSON
 
+Here realise two ways of XML file parsing - "DOM , SAX"
+
+And one example of JSON parsing - "JSON Simple Parsing"
+
 XML-file:
 
 ```
@@ -36,4 +40,30 @@ XML-file:
 ```
 JSON-file:
 
-
+```
+{
+  "name": "Ivan",
+  "people": [
+    {
+      "name": "Ivan",
+      "age": 12
+    },
+    {
+      "name": "Sergei",
+      "age": 20
+    }, {
+      "name": "Alexei",
+      "age": 42
+    }, {
+      "name": "Michael",
+      "age": 34
+    }, {
+      "name": "Alex",
+      "age": 235
+    }, {
+      "name": "Roman",
+      "age": 19
+    }
+  ]
+}
+```
